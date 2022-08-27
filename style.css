@@ -1,0 +1,52 @@
+body { 
+background-image: url("https://i.etsystatic.com/23057519/r/il/eced95/3230534734/il_794xN.3230534734_qs72.jpg")
+}
+
+  header { 
+    width: 100%;
+    height: 100vh;
+  }
+  
+  nav {
+    
+    background:pink;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+  }
+  
+  .list-items {
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: space-around;
+  }
+  
+  .link {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+    transition: 0.4s;
+  }
+  
+  .link:hover {
+    color: #db5dab;
+  }
+  
+  .nav-btns {
+    width: 30%;
+    font-size: 20px;
+  }
+  
+  .btn-nav-i {
+    color: white;
+    float: right;
+    padding-right: 20px;
+    transition: 0.4s;
+  }
+  
+  .btn-nav-i:hover {
+    color: #db5dab;
+  }
